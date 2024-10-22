@@ -26,4 +26,7 @@ async def Load():
         if filename.endswith(".py"):
             await bot.load_extension(f"cogs.{filename[: -3]}")
 
-bot.run(token)
+async def main():
+    async with bot:
+        await Load()
+        await bot.start(token)
