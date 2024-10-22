@@ -11,4 +11,4 @@ async def on_ready():
 with open("token.txt") as file:
     token = file.read()
 
-bot.run("")
+bot.run(token)
