@@ -2,7 +2,8 @@ import discord
 from discord.ext import commands
 
 import os
-import asyncio
+
+# NO ERROR RETURNED
 
 bot = commands.Bot(command_prefix="filipi ", intents=discord.Intents.all())
 
