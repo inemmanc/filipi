@@ -28,6 +28,7 @@ async def Load():
         if filename.endswith(".py"):
             await bot.load_extension(f"cogs.{filename[: -3]}")
 
+# PROBABLY ASYNC ERR
 async def main():
     async with bot:
         await Load()
