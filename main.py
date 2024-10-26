@@ -4,6 +4,7 @@ from discord.ext import commands
 import os
 
 # NO ERROR RETURNED
+# NO ERROR RESPONSE
 
 bot = commands.Bot(command_prefix="filipi ", intents=discord.Intents.all())
 
